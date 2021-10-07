@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+/*Filterable names css */
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #189AB4;
+}
+ul{
+    margin-top: 10px;
+}
+ul li{
+    list-style: none;
+    border: 1px solid #D4F1F4;
+    padding: 10px;
+    
+}
+
+.filterNameContainer{
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    margin: 0 auto;
+   
+
+}
+.nameSearch{
+    border-bottom: 3px #189AB4 solid;
+    padding-left: 5px;
+    
+
+}
+.nameSearch h3 {
+    text-align: center;
+    font-size: 30px;
+}
+.nameSearch .Inputbox {
+    border: none;
+    font-size: 20px;
+    margin-top: 15px;
+    padding-bottom: 10px; 
+}
+.nameSearch .Inputbox:focus {
+    outline: none;
+}
+.names{
+    width: 100%;
+}
